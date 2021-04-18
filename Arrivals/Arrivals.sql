@@ -1,0 +1,16 @@
+﻿CREATE TABLE arrivals(
+	id INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
+	Spreadsheet INT,
+	Apellido VARCHAR(100),
+	Nombre	VARCHAR(100),
+	Parentesco	VARCHAR(100),
+	Edad	INT,
+	Sexo	VARCHAR(100),
+	Estado_Civil VARCHAR(100),
+	Profesión	VARCHAR(100),
+	Religión	VARCHAR(100),
+	Puerto_salida	VARCHAR(100),
+	Buque	VARCHAR(100),
+	Fecha_arribo	DATETIME,
+	Educación	VARCHAR(100),
+	Clase VARCHAR(100))
