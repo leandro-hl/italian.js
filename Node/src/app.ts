@@ -1,9 +1,6 @@
 import xlsx from "node-xlsx";
 import * as fs from "fs";
 import * as sql from "mssql";
-import { Transaction } from "./dal/transactions";
-
-const transaction = new Transaction();
 
 fs.readdir("files", async (err, files) => {
   await sql.connect("");
